@@ -1,7 +1,5 @@
 package ByteShortIntLong;
 
-import jdk.tools.jlink.internal.SymLinkResourcePoolEntry;
-
 public class Main {
     public static void main(String[] args) {
         int myValue = 10000;
@@ -49,7 +47,15 @@ public class Main {
         System.out.println("Double maximum value = " + myMaxDoubleValue);
 
         int myIntValue2 = 5;
-        float myFloatvalue = (float) 5.25;
-        double myDoubleValue = 5.25d;
+        float myFloatValue = 5f;
+        double myDoubleValue = 5d;
+
+        System.out.println("MyIntValue2 = " + myIntValue2);
+        System.out.println("myFloatValue = " + myFloatValue);
+        System.out.println("myDoubleValue = " + myDoubleValue);
+
+        double pounds = 10;
+        double kilos = pounds * .45359237;
+        System.out.println(kilos);
     }
 }
