@@ -1,5 +1,7 @@
 package ByteShortIntLong;
 
+import jdk.tools.jlink.internal.SymLinkResourcePoolEntry;
+
 public class Main {
     public static void main(String[] args) {
         int myValue = 10000;
@@ -35,5 +37,19 @@ public class Main {
         long longVariable = 50000L + 10L * (byteVariable + shortVariable + intVariable);
 
         System.out.println(longVariable);
+        
+        float myMinFloatValue = Float.MIN_VALUE;
+        float myMaxFloatValue = Float.MAX_VALUE;
+        System.out.println("Float minimum value = " + myMinFloatValue);
+        System.out.println("Float maximum value = " + myMaxFloatValue);
+
+        double myMinDoubleValue = Double.MIN_VALUE;
+        double myMaxDoubleValue = Double.MAX_VALUE;
+        System.out.println("Double minimum value = " + myMinDoubleValue);
+        System.out.println("Double maximum value = " + myMaxDoubleValue);
+
+        int myIntValue2 = 5;
+        float myFloatvalue = (float) 5.25;
+        double myDoubleValue = 5.25d;
     }
 }
