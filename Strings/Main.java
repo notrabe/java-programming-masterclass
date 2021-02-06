@@ -14,6 +14,9 @@ public class Main {
         String lastString = "10";
         int myInt = 50;
         lastString = lastString + myInt;
-        System.out.println(lastString);
+        System.out.println("LastString is equal to "+ lastString);
+        double doubleNumber = 120.47d;
+        lastString = lastString + doubleNumber;
+        System.out.println("LastString is equal to " + lastString);
     }
 }
