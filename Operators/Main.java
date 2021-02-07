@@ -18,5 +18,22 @@ public class Main {
 
         result = result % 3; // what is left over after 3 is put into the remainder? in this case it is 1.
         System.out.println("4 % 3 = " + result);
+
+        //result = result + 1
+        result++;
+        System.out.println("1 + 1 = " + result);
+
+        result--;
+        System.out.println("2 - 1 = " + result);
+
+        result += 2;
+        System.out.println("1 + 2 = " + result);
+
+        //result = result * 10
+        result *= 10;
+        System.out.println("3 * 10 = " + result);
+        
+        result /= 10;
+        System.out.println("30 / 10 = " + result);
     }
 }
