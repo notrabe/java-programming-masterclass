@@ -1,5 +1,9 @@
 package Operators;
 
+import java.awt.geom.Area;
+
+import sun.awt.windows.ThemeReader;
+
 public class Main {
 	public static void main(String[] args) {
 		int result = 1 + 2;
@@ -45,14 +49,18 @@ public class Main {
 			System.out.println("and I am scared of aliens");
 		}
 		
-		int topScore = 100;
-		if(topScore == 100) {
+		int topScore = 80;
+		if(topScore < 100) {
 			System.out.println("You got the high score!");
 		}
 		
-		int secondTopScore = 70;
-		if(topScore > secondTopScore) {
+		int secondTopScore = 81;
+		if((topScore < secondTopScore) && (topScore < 100)) {
 			System.out.println("top score is greater than second top score");
+		}
+		
+		if((topScore > 90) || (secondTopScore <= 90)) {
+			System.out.println("either one or both of the conditions are true");
 		}
 	}
 }
