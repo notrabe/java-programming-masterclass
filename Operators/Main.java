@@ -1,8 +1,5 @@
 package Operators;
 
-import java.awt.geom.Area;
-
-import sun.awt.windows.ThemeReader;
 
 public class Main {
 	public static void main(String[] args) {
@@ -61,6 +58,22 @@ public class Main {
 		
 		if((topScore > 90) || (secondTopScore <= 90)) {
 			System.out.println("either one or both of the conditions are true");
+		}
+		
+		int newValue = 50;
+		if(newValue == 50) {
+			System.out.println("this is true");
+		}
+		
+		boolean isCar = false;
+		if(isCar == true) {
+			System.out.println("This is not supposed to happen");
+		}
+		if(!isCar) {
+			System.out.println("This is supposed to happen");
+		}
+		if(isCar != true) {
+			System.out.println(("This is supposed to happen"));
 		}
 	}
 }
