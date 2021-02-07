@@ -81,5 +81,17 @@ public class Main {
 		if(wasCar) {
 			System.out.println("wasCar is true");
 		}
+		
+		double firstDouble = 20.00;
+		double secondDouble = 80.00;
+		double equation = (firstDouble + secondDouble) * 100;
+		double remainder = equation % 40.00;
+		boolean isTrue = (remainder == 0) ? true : false;
+		System.out.println(remainder);
+		if(!isTrue) {
+			System.out.println("Got some remainder.");
+		}
+		
+		System.out.println(isTrue);
 	}
 }
