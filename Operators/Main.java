@@ -75,5 +75,11 @@ public class Main {
 		if(isCar != true) {
 			System.out.println(("This is supposed to happen"));
 		}
+		
+		isCar = true;
+		boolean wasCar = isCar ? true : false; //if isCar is true, set wasCar to true. Otherwise, set wasCar to false.
+		if(wasCar) {
+			System.out.println("wasCar is true");
+		}
 	}
 }
