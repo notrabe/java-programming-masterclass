@@ -39,5 +39,10 @@ public class Main {
 		result /= 10;
 		System.out.println("30 / 10 = " + result);
 		
+		boolean isAlien = false;
+		if(isAlien == false) {
+			System.out.println("it is not an alien!");
+			System.out.println("and I am scared of aliens");
+		}
 	}
 }
