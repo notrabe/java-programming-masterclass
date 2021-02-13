@@ -8,7 +8,9 @@ public class Main {
         displayHighScorePosition("Bob", calculateHighScorePosition(400));
         displayHighScorePosition("Joe", calculateHighScorePosition(50));
         System.out.println("Your final score was " + calculateScore(true, 800, 5, 100)); 
-        System.out.println("Your final score was " + calculateScore(true, 10000, 8, 200));    
+        System.out.println("Your final score was " + calculateScore(true, 10000, 8, 200));
+
+        System.out.println(toMilesPerHour(25.42));
     }
 
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
@@ -33,6 +35,16 @@ public class Main {
             return 3;
         } else {
             return 4;
+        }
+    }
+
+    // write your code here
+    public static long toMilesPerHour(double kilometersPerHour){
+        if (kilometersPerHour < 0){
+            return -1;
+        } else {
+            long i = Math.round(kilometersPerHour * .621371);
+            return i;
         }
     }
 }
