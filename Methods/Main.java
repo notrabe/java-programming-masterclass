@@ -10,7 +10,9 @@ public class Main {
         System.out.println("Your final score was " + calculateScore(true, 800, 5, 100)); 
         System.out.println("Your final score was " + calculateScore(true, 10000, 8, 200));
 
-        System.out.println(toMilesPerHour(25.42));
+        printConversion(1.5);
+        printConversion(-2);
+        printConversion(95.75);
     }
 
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
@@ -39,12 +41,23 @@ public class Main {
     }
 
     // write your code here
+
+    //this is the correct function, directions say to use Math.round which rounds to the nearest whule number. Test for 95.75kmh is 59.03mph (rounded to 59) but the test expects 60mph.
     public static long toMilesPerHour(double kilometersPerHour){
         if (kilometersPerHour < 0){
             return -1;
         } else {
             long i = Math.round(kilometersPerHour * .621371);
             return i;
+        }
+    }
+
+    public static void printConversion(double kilometersPerHour){
+        if (kilometersPerHour < 0){
+            System.out.println("Invalid Value");
+        } else{
+            long YY = toMilesPerHour(kilometersPerHour);
+            System.out.println(kilometersPerHour + "kph = " + YY + "mph");
         }
     }
 }
