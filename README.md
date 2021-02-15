@@ -1,3 +1,3 @@
 # java-programming-masterclass
 
-the java programming masterclass on udemy
+the java programming masterclass on Udemy
