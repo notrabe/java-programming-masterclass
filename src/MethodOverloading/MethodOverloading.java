@@ -1,7 +1,5 @@
 package MethodOverloading;
 
-import sun.jvm.hotspot.runtime.StaticBaseConstructor;
-
 public class MethodOverloading {
 
 	public static void main(String[] args) {
