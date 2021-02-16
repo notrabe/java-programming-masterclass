@@ -40,8 +40,6 @@ public class Main {
         }
     }
 
-    // write your code here
-
     //this is the correct function, directions say to use Math.round which rounds to the nearest whule number. Test for 95.75kmh is 59.03mph (rounded to 59) but the test expects 60mph.
     public static long toMilesPerHour(double kilometersPerHour){
         if (kilometersPerHour < 0){
