@@ -1,6 +1,6 @@
-package CharAndBoolean;
+package section_04;
 
-public class Main {
+public class CharAndBoolean {
     public static void main(String[] args){
         char myChar = 'D';
         char myUnicodeChar = '\u0044';

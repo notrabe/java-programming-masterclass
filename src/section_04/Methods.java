@@ -1,6 +1,6 @@
-package Methods;
+package section_04;
 
-public class Main {
+public class Methods {
 
     public static void main(String[] args) {    
         displayHighScorePosition("Evan", calculateHighScorePosition(1500));

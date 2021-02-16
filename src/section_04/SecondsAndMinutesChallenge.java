@@ -1,4 +1,4 @@
-package SecondsAndMinutesChallenge;
+package section_04;
 
 public class SecondsAndMinutesChallenge {
 	

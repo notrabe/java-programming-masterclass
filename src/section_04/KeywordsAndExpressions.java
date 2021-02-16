@@ -1,6 +1,6 @@
-package KeywordsAndExpressions;
+package section_04;
 
-public class Main {
+public class KeywordsAndExpressions {
 	public static void main(String[] args) {
 		double kilometers = (100 * 1.609344);
 		

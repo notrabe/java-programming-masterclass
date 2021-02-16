@@ -1,4 +1,4 @@
-package section05;
+package section_05;
 
 
 public class DayOfTheWeek {

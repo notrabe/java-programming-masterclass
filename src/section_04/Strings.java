@@ -1,6 +1,6 @@
-package Strings;
+package section_04;
 
-public class Main {
+public class Strings {
     public static void main(String[] args) {
         String myString = "This is a string";
         System.out.println(myString);

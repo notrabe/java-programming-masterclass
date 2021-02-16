@@ -1,6 +1,6 @@
-package StatementsWhitespaceAndIndenting;
+package section_04;
 
-public class Main {
+public class StatementsWhitespaceAndIndentation {
 	public static void main(String[]args) {
 		int myVariable = 50;
 		myVariable++;

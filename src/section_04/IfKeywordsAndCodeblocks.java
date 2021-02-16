@@ -1,6 +1,6 @@
-package IfKeywordAndCodeblocks;
+package section_04;
 
-public class Main{
+public class IfKeywordsAndCodeblocks{
 	public static void main(String[] args) {
 		boolean gameOver = true;
 		int score = 5000;

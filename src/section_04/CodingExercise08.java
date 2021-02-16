@@ -1,4 +1,4 @@
-package CodingExercises;
+package section_04;
 
 public class CodingExercise08 {
 	public static void main(String[] args) {

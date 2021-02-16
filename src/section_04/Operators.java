@@ -1,7 +1,7 @@
-package Operators;
+package section_04;
 
 
-public class Main {
+public class Operators {
 	public static void main(String[] args) {
 		int result = 1 + 2;
 		System.out.println("1 + 2 = " + result);
