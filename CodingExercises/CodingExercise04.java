@@ -1,6 +1,6 @@
 package CodingExercises;
 
-public class CodingExerciseFour {
+public class CodingExercise04 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

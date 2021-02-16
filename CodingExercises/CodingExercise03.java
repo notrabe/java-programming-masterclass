@@ -1,7 +1,7 @@
 package CodingExercises;
 
 
-public class CodingExerciseThree {
+public class CodingExercise03 {
 	public static void main(String[] args) {
 		System.out.println(shouldWakeUp(false, 2));
 		System.out.println(shouldWakeUp(true, 1));

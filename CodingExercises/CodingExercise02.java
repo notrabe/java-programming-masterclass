@@ -1,6 +1,6 @@
 package CodingExercises;
 
-public class CodingExerciseTwo {
+public class CodingExercise02 {
 	public static void main(String[] args) {
 		printMegaBytesAndKiloBytes(2500);
 		printMegaBytesAndKiloBytes(-1024);

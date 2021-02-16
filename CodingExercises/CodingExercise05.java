@@ -1,6 +1,6 @@
 package CodingExercises;
 
-public class CodingExerciseFive {
+public class CodingExercise05 {
 	public static void main(String[] args) {
 		System.out.println(areEqualByThreeDecimalPlaces(-3.1756, -3.175));
 		System.out.println(areEqualByThreeDecimalPlaces(3.175, 3.176));

@@ -1,6 +1,6 @@
 package CodingExercises;
 
-public class CodingExerciseSix {
+public class CodingExercise06 {
 	public static void main(String[] args) {
 		System.out.println(hasEqualSum(1, 1, 1));
 		System.out.println(hasEqualSum(1, 1, 2));
