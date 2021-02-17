@@ -2,7 +2,6 @@ package section_04;
 
 public class ByteShortIntLong {
     public static void main(String[] args) {
-        int myValue = 10000;
 
         int myMinIntValue = Integer.MIN_VALUE;
         int myMaxIntValue = Integer.MAX_VALUE;
@@ -25,9 +24,6 @@ public class ByteShortIntLong {
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Minimum Value = " + myMinLongValue);
         System.out.println("Long Maximum Value = " + myMaxLongValue);
-
-        byte myNewByteValue = (byte) (myMinByteValue / 2);
-        short myNewShortValue = (short) (myMinShortValue / 2);
 
         byte byteVariable = 10;
         short shortVariable = 20;

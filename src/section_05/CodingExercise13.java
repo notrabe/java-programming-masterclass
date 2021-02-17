@@ -12,7 +12,7 @@ public class CodingExercise13 {
 		System.out.println(getDaysInMonth(-1, 2020));
 		System.out.println(getDaysInMonth(1, -2020));
 	}
-	
+
 	public static boolean isLeapYear(int year) {
 		if(year < 1|| year > 9999) {
 			return false;
@@ -30,7 +30,7 @@ public class CodingExercise13 {
 			return false;
 		}
 	}
-	
+
 	public static int getDaysInMonth(int month, int year) {
 		if(month < 1 || month > 12 || year < 1 || year > 9999) {
 			return -1;
