@@ -5,20 +5,20 @@ public class CodingExercise16 {
 		System.out.println(sumFirstAndLastDigit(252));
 	}
 	
-	public static int sumFirstAndLastDigit(int num) {
-		if(num < 0 ) {
+	public static int sumFirstAndLastDigit(int number) {
+		if(number < 0 ) {
 			return -1;
 		}
 		
-		int lastDigit = num % 10;
+		int lastDigit = number % 10;
 		
-		while(num >= 10) {
-			num = num / 10;
+		while(number >= 10) {
+			number = number / 10;
 		}
 		
-		int sum = num + lastDigit;
+		int sum = number + lastDigit;
 		
-		sum = lastDigit + num;
+		sum = lastDigit + number ;
 		return sum;
 	}
 }
