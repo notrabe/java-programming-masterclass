@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package section_06.coding_exercises;
+package section_06.coding_exercises.coding_exercise_33;
 
 /**
  *
