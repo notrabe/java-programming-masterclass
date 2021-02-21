@@ -27,55 +27,35 @@ package section_06.inheritance;
  *
  * @author notrabe <github.com/notrabe>
  */
-public class Dog extends Animal {
+public class Fish extends Animal {
 
+	private int gills;
 	private int eyes;
-	private int legs;
-	private int tail;
-	private int teeth;
-	private String coat;
+	private int fins;
 
-	public Dog(String name, int size, int weight, int eyes, int legs, int tail, int teeth, String coat) {
+	public Fish(int gills, int eyes, int fins, String name, int size, int weight) {
 		super(name, 1, 1, size, weight);
+		this.gills = gills;
 		this.eyes = eyes;
-		this.legs = legs;
-		this.tail = tail;
-		this.teeth = teeth;
-		this.coat = coat;
+		this.fins = fins;
 	}
 
-	private void chew() {
-		System.out.println("Dog.chew called.");
+	private void rest() {
+
 	}
 
-	@Override
-	public void eat() {
-		System.out.println("Dog.eat() called.");
-		chew();
-		super.eat(); //To change body of generated methods, choose Tools | Templates.
+	private void moveMuscles() {
+
 	}
 
-	public void walk(){
-		System.out.println("Dog.walk() called");
-		move(5);
+	private void moveBackFin() {
+
 	}
 
-	public void run(){
-		System.out.println("Dog.run() called");
-		move(10);
+	private void swim(int speed) {
+		moveMuscles();
+		moveBackFin();
+		super.move(speed);
 	}
-
-	private void moveLegs(int speed){
-		System.out.println("Dog.moveLegs() called");
-	}
-
-	@Override
-	public void move(int speed) {
-		System.out.println("Dog.move() called");
-		moveLegs(speed);
-		super.move(speed); //To change body of generated methods, choose Tools | Templates.
-	}
-
-
 
 }
