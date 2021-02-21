@@ -7,8 +7,8 @@ package section_06.constructors;
 
 /**
  *
- * @author notrabe <github.com/notrabe>
- */
+ * @author notrabe <github.com/notrabe> I am the man
+*/
 public class Main {
 	public static void main(String[] args) {
 		BankAccount bankAccount=new BankAccount(12345, 100, "Evan Barton", "evan@evan.com", 12343456);
