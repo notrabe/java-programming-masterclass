@@ -5,6 +5,8 @@
  */
 package section_06.constructors;
 
+import java.util.jar.Attributes;
+
 /**
  *
  * @author notrabe <github.com/notrabe>
@@ -15,6 +17,14 @@ public class BankAccount {
 	private String name;
 	private String email;
 	private int phoneNumber;
+
+	public BankAccount(int accountNumber, double balance, String name, String email, int phoneNumber){
+		this.accountNumber=accountNumber;
+		this.balance=balance;
+		this.name=name;
+		this.email=email;
+		this.phoneNumber=phoneNumber;
+	}
 
 	public int getAccountNumber(){
 		return this.accountNumber;
