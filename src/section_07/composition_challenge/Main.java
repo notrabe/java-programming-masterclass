@@ -21,26 +21,19 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package section_07.composition;
+package section_07.composition_challenge;
 
 /**
  *
  * @author notrabe <github.com/notrabe>
  */
 public class Main {
-
+	
 	public static void main(String[] args) {
-
-		Dimensions dimensions = new Dimensions(20, 20, 5);
-
-		Case theCase = new Case("220B", "Dell", "240", dimensions);
-
-		Monitor theMonitor = new Monitor("27inch beast", "Acer", 27, new Resolution(2540, 1440));
-
-		Motherboard motherboard = new Motherboard("bj200", "Asus", 4, 6, "v2.44");
-
-		PC thePC = new PC(theCase, theMonitor, motherboard);
-		thePC.powerUp();
+		Door door = new Door(1);
+		Furniture furniture = new Furniture(true, true, new TV(50));
+		Walls walls = new Walls(4, "grey", 20);
+		Room room = new Room(door, furniture, walls);
+		room.turnOnTV();
 	}
-
 }
