@@ -41,7 +41,7 @@ public class Main {
 
 	public static Car randomCar() {
 
-		int randomNumber = (int)(Math.random() * 3) + 1;
+		int randomNumber = (int) (Math.random() * 3) + 1;
 		switch (randomNumber) {
 			case 1:
 				return new HondaCivic();
@@ -80,7 +80,6 @@ class Car {
 	public String getName() {
 		return name;
 	}
-
 
 	public int getCylinders() {
 		return cylinders;
@@ -132,5 +131,4 @@ class Beater extends Car {
 	public Beater() {
 		super("Beater Car.", true, 0, 4);
 	}
-
 }
