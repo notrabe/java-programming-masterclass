@@ -41,4 +41,33 @@ public class HealthyBurger extends Hamburger{
 		this.cheese = cheese;
 		this.bacon = bacon;
 	}
+
+	@Override
+	public double additionPrice() {
+		int additionCount=0;
+		if(onion){
+			additionCount++;
+		}
+		if(cheese){
+			additionCount++;
+		}
+		if(bacon){
+			additionCount++;
+		}
+		if(lettuce){
+			additionCount++;
+		}
+		if(mayo){
+			additionCount++;
+		}
+		if(ketchup){
+			additionCount++;
+		}
+		if(pickle){
+			additionCount++;
+		}
+		return 0.25*additionCount;
+	}
+
+	
 }

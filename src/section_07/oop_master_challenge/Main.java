@@ -33,16 +33,19 @@ public class Main {
 		
 		Hamburger hamburger = new Hamburger(true, true, true, true);
 		System.out.println(hamburger.price());
+		System.out.println(hamburger.getBasePrice());
 		System.out.println(hamburger.getBun());
 
 		HealthyBurger healthyBurger = new HealthyBurger(true, true, true, true, true, true, true);
 		System.out.println(healthyBurger.price());
+		System.out.println(healthyBurger.getBasePrice());
 		System.out.println(healthyBurger.getBun());
 		System.out.println(hamburger.getBun());
 
-		DeluxeBurger deluxeBurger = new DeluxeBurger(true, true, true, true, true, true);
+		DeluxeBurger  deluxeBurger = new DeluxeBurger();
+		System.out.println(deluxeBurger.getBasePrice());
 		System.out.println(deluxeBurger.price());
-		System.out.println(deluxeBurger.getBun());
+		
 
 		Hamburger hamburger2 = new Hamburger(false, true, true, false);
 		System.out.println(hamburger2.price());

@@ -31,10 +31,10 @@ public class Hamburger {
 
 	public String bun;
 	private boolean meat=true;
-	private boolean lettuce;
-	private boolean mayo;
-	private boolean ketchup;
-	private boolean pickle;
+	public boolean lettuce;
+	public boolean mayo;
+	public boolean ketchup;
+	public boolean pickle;
 	public double basePrice;
 
 	public Hamburger(boolean lettuce, boolean mayo, boolean ketchup, boolean pickle) {
@@ -66,6 +66,10 @@ public class Hamburger {
 
 	public double price(){
 		return basePrice+additionPrice();
+	}
+
+	public double getBasePrice(){
+		return basePrice;
 	}
 
 	public String getBun() {

@@ -32,11 +32,18 @@ public class DeluxeBurger extends Hamburger{
 	private boolean chips;
 	private boolean drink;
 
-	public DeluxeBurger(boolean chips, boolean drink, boolean lettuce, boolean mayo, boolean ketchup, boolean pickle) {
-		super(lettuce, mayo, ketchup, pickle);
-		this.chips = chips;
-		this.drink = drink;
-		basePrice=7.00;
+	public DeluxeBurger() {
+		super(false, false, false, false);
+		this.chips = setChips(true);
+		this.drink = setDrink(true);
+		basePrice = 8.00;
 	}
 
+	public boolean setChips(boolean chips) {
+		return this.chips = chips;
+	}
+
+	public boolean setDrink(boolean drink) {
+		return this.drink = drink;
+	}
 }
